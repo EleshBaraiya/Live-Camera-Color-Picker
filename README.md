@@ -17,8 +17,8 @@ Pick color from live camera
 
 ### Get Color Code From Activity Result
    
-   @Override
-    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+       @Override
+       protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
 
         if (resultCode == RESULT_OK && requestCode == PickColorActivity.REQUEST_PIC_COLOR) {
