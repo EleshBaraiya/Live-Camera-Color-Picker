@@ -13,7 +13,7 @@ Pick color from live camera
     <activity android:name="com.tatwadeep.livecameracolorpickerlib.PickColorActivity" />
 
 ### Your Activity
-startActivityForResult(new Intent(MainActivity.this, PickColorActivity.class), PickColorActivity.REQUEST_PIC_COLOR);
+    startActivityForResult(new Intent(MainActivity.this, PickColorActivity.class), PickColorActivity.REQUEST_PIC_COLOR);
 
 ### Get Color Code From Activity Result
    
