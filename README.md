@@ -1,6 +1,8 @@
 # Live-Camera-Color-Picker
 Pick color from live camera
 
+[![](https://jitpack.io/v/EleshBaraiya/Live-Camera-Color-Picker.svg)](https://jitpack.io/#EleshBaraiya/Live-Camera-Color-Picker)
+
 # Your Activity
 startActivityForResult(new Intent(MainActivity.this, PickColorActivity.class), PickColorActivity.REQUEST_PIC_COLOR);
 
