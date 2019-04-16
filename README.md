@@ -26,3 +26,5 @@ startActivityForResult(new Intent(MainActivity.this, PickColorActivity.class), P
 
         }
     }
+
+ ![alt text](https://github.com/EleshBaraiya/All-in-One/blob/master/image_1.png)
