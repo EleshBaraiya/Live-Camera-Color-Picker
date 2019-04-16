@@ -1,5 +1,7 @@
 # Live-Camera-Color-Picker
-Pick color from live camera
+It is a very light weight library that uses the camera of your device to capture a color.
+It analyses in real time the camera preview and extracts the color that you are pointing at.
+You don't have to take a picture and then pinpoint the color you want: it all happens in real time.
 
 [![](https://jitpack.io/v/EleshBaraiya/Live-Camera-Color-Picker.svg)](https://jitpack.io/#EleshBaraiya/Live-Camera-Color-Picker)
 
