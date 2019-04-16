@@ -27,4 +27,4 @@ startActivityForResult(new Intent(MainActivity.this, PickColorActivity.class), P
         }
     }
 
- ![alt text](https://github.com/EleshBaraiya/Live-Camera-Color-Picker/blob/master/device-2019-04-16-172223.png)
+ ![alt text](https://github.com/EleshBaraiya/Live-Camera-Color-Picker/blob/master/screenshot.png)
