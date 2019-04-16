@@ -3,10 +3,9 @@ Pick color from live camera
 
 [![](https://jitpack.io/v/EleshBaraiya/Live-Camera-Color-Picker.svg)](https://jitpack.io/#EleshBaraiya/Live-Camera-Color-Picker)
 
-    repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+    repositories {	
+		  maven { url 'https://jitpack.io' }
+		 }
 
     implementation 'com.github.EleshBaraiya:Live-Camera-Color-Picker:0.1.0'
 
