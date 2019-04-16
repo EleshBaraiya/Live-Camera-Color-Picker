@@ -9,10 +9,13 @@ Pick color from live camera
 
     implementation 'com.github.EleshBaraiya:Live-Camera-Color-Picker:0.1.0'
 
-# Your Activity
+* Register in Manifest
+    <activity android:name="com.tatwadeep.livecameracolorpickerlib.PickColorActivity" />
+
+* Your Activity
 startActivityForResult(new Intent(MainActivity.this, PickColorActivity.class), PickColorActivity.REQUEST_PIC_COLOR);
 
-# Get Color Code From Activity Result
+* Get Color Code From Activity Result
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
